@@ -1,2 +1,3 @@
-select * from dualselect * from temp_dtls
+select * from dual
+select * from temp_dtls
 
