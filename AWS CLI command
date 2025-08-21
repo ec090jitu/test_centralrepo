@@ -1,0 +1,2 @@
+# How to create the EC2 instances through AWS CLI
+aws ec2 run-instances --image-id ami-020cba7c55df1f615 --count 1 --instance-type t3.micro --key-name test111 --security-group-ids sg-855a469e --subnet-id subnet-d4e5e9da
